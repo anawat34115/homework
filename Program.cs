@@ -1,4 +1,7 @@
-﻿Console.WriteLine("ป้อนรหัสผ่าน 6 ตัว:");
+﻿class Homework {
+    static void Main(string[] args){
+
+Console.WriteLine("ป้อนรหัสผ่าน 6 ตัว:");
 int password = int.Parse(Console.ReadLine());
 
 Console.WriteLine("ป้อนตัวย่อหน่วยงานของคุณ (FBI, CIA หรือ NSA):");
@@ -61,3 +64,5 @@ switch (agencyAbbreviation)
 }
 
 
+}
+}
